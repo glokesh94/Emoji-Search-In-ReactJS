@@ -2,9 +2,9 @@
   "name": "emoji-search",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "http://ahfarmer.github.io/emoji-search",
+  "homepage": "https://glokesh94.github.io/Emoji-Search-In-ReactJS/",
   "devDependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.17.1",
     "react-scripts": "^3.0.1"
   },
@@ -19,6 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
